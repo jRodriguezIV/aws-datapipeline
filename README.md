@@ -89,7 +89,7 @@ sudo systemctl stop rawdata-watcher.service
 ## 📸 Sample Output
 
 ### S3 Data Lake Structure
-![S3 bucket structure](scripts/images/Bucket_Structure.png)
+![S3 bucket structure](images/Bucket_Structure.png)
 
 ### ETL Logs (successful ingestion)
-![ETL log output](scripts/images/ETL_Logs.png)
+![ETL log output](images/ETL_Logs.png)

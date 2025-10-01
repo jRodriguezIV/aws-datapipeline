@@ -28,7 +28,8 @@ The system:
 - File watcher for near real-time updates
 - Configurable bucket/directory paths
 - Logs tracked locally
-- Future-ready for Delta Lake
+- Future-ready for Apache Kafka for real-time streaming ingestion.
+- Future-ready for Delta Lake for ACID transactions, schema evolution, and versioning
 
 ---
 
@@ -83,3 +84,12 @@ scp -v -i <path-to-local-keypair.pem> <path-to-updated-QQQ-csv-file> <ec2-user-a
 sudo systemctl stop rawdata-watcher.service
 ```
 
+---
+
+## 📸 Sample Output
+
+### S3 Data Lake Structure
+![S3 bucket structure](scripts/images/Bucket_Structure.png)
+
+### ETL Logs (successful ingestion)
+![ETL log output](scripts/images/ETL_Logs.png)
